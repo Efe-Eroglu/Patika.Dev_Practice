@@ -1,0 +1,21 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1.Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+
+[16,21,11,8,12,22] 
+
+[16,21,11]          [8,12,22] -> İlk olarak dizimizi iki parçaya ayıralım 6 elemandan oluştuğundan dolayı 3-3 şeklinde ayıralım. 
+
+[16] [21,11]      [8,12] [22] -> Ayırılan elemanları kendi içlerinde 2 parçaya ayırdık.
+
+[16] [11,21]      [8,12] [22] -> Daha sonra bu parçalarıda kendi içlerinde sıralayalım.
+
+[11,16,21]          [8,12,22] -> Sıraladığımız kümeleri birleştirelim 
+
+    [8,11,12,16,21,22] -> Merge Sort ile sıralanmış son durum 
+
+
+
+2.Big-O gösterimi -> O(nlogn)
+
